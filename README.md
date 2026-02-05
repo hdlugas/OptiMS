@@ -83,7 +83,26 @@ The complete usage instructions for OptiMS are:
 Help Message for OptiMS.jl
 
 Usage:
-  julia OptiMS.jl --query_data <string> --reference_data <string> --output <string> --optimization_method <string> --metric <string> --params_to_optimize <string> --spectrum_preprocessing_order <string> --LB_wf_mz <float> --UB_wf_mz <float> --LB_wf_intensity <float> --UB_wf_intensity <float> --LB_LET_thresh <float> --UB_LET_thresh <float> --wf_mz <float> --wf_intensity <float> --LET_thresh <float> --threads <int> --n_grid_points <int> --max_steps <int>
+  julia OptiMS.jl \
+    --query_data <string> \
+    --reference_data <string> \
+    --output <string> \
+    --optimization_method <string> \
+    --metric <string> \
+    --params_to_optimize <string> \
+    --spectrum_preprocessing_order <string> \
+    --n_grid_points <int> \
+    --max_steps <int> \
+    --LB_wf_mz <float> \
+    --UB_wf_mz <float> \
+    --LB_wf_intensity <float> \
+    --UB_wf_intensity <float> \
+    --LB_LET_thresh <float> \
+    --UB_LET_thresh <float> \
+    --wf_mz <float> \
+    --wf_intensity <float> \
+    --LET_thresh <float> \
+    --threads <int>
 
 
 Arguments:
