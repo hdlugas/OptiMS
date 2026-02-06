@@ -57,8 +57,8 @@ where multiplication in the numerator refers to the dot product $I\circ J=a_{1}b
 ## 3. Functionality
 
 OptiMS has three main capabilities:
-1. Tune parameters to maximize either accuracy or mean reciprocal rank (MRR) via differential evolution optimization.
-2. Compute the accuracy or MRR for every set of parameters in a user-defined grid of possible parameters.
+1. Tune parameters to maximize either cross-validated accuracy or cross-validated mean reciprocal rank (MRR) via differential evolution optimization.
+2. Compute the cross-validated accuracy or cross-validated MRR for every set of parameters in a user-defined grid of possible parameters.
 3. Compute the similarity scores between every query spectrum and every reference spectrum for a single user-defined choice of parameters.
 
 Scripts which run toy examples illustrating each of these three methods are provided. These toy examples can be run by navigating to the necessary directory and executing the scripts:
