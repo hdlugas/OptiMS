@@ -46,11 +46,7 @@ Thus, there are two weight factor and one low-entropy threshold parameter one ca
 Given a pair of processed spectra intensities
 $I=(a_{1},a_{2},...,a_{n}), J=(b_{1},b_{2},...,b_{n})\in\mathbb{R}^{n}$
 with $0\leq a_{i},b_{i}\leq 1$ for all $i\in\{1,2,...,n\}$ and
-$\sum_{i=1}^{n}a_{i}=\sum_{i=1}^{n}b_{i}=1$, PyCompound provides
-functionality for computing the following similarity measures:
-
--   Cosine Similarity Measure:
-
+$\sum_{i=1}^{n}a_{i}=\sum_{i=1}^{n}b_{i}=1$, OptiMS computes the Cosine similarity between the two spectra:
 ```math
 S_{Cosine}(I,J)=\frac{I\circ J}{|I|_{2}\cdot |J|_{2}}
 ```
