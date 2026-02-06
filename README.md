@@ -1,5 +1,5 @@
 # OptiMS
-OptiMS is a julia-based command-line tool for tuning parameters involved in preprocessing mass spectrometry data. The three main functionalities of OptiMS are (i) identifying optimal parameters via differential evolution, (ii) identifying optimal parameters via exhaustive grid-based search, and (iii) simply running compound identification and recording similarity scores.
+OptiMS is a Julia-based command-line tool for tuning parameters involved in preprocessing mass spectrometry data. The three main functionalities of OptiMS are (i) identifying optimal parameters via differential evolution, (ii) identifying optimal parameters via exhaustive grid-based search, and (iii) simply running compound identification and recording similarity scores.
 
 
 ## Table of Contents
