@@ -1,5 +1,5 @@
 # OptiMS
-OptiMS is a Julia-based command-line tool for tuning parameters involved in preprocessing mass spectrometry data. The three main functionalities of OptiMS are (i) identifying optimal parameters via differential evolution, (ii) identifying optimal parameters via exhaustive grid-based search, and (iii) simply running compound identification and recording similarity scores.
+OptiMS is a Julia-based command-line tool for tuning parameters involved in preprocessing gas chromatography - mass spectrometry data. The three main functionalities of OptiMS are (i) identifying optimal parameters via differential evolution, (ii) identifying optimal parameters via exhaustive grid-based search, and (iii) simply running compound identification and recording similarity scores.
 
 
 ## Table of Contents
@@ -41,7 +41,7 @@ The following two spectrum preprocessing transformations are offered:
     $x_{i}^{\star}=x_{i}^{\frac{1+H_{Shannon}(I)}{1+T}}$ if
     $H_{Shannon}(I)<T$.
 
-Thus, there are two weight factor and one low-entropy threshold parameter one can tweak.
+Thus, there are two weight factor parameters and one low-entropy threshold parameter one can tweak.
 
 Given a pair of processed spectra intensities
 $I=(a_{1},a_{2},...,a_{n}), J=(b_{1},b_{2},...,b_{n})\in\mathbb{R}^{n}$
